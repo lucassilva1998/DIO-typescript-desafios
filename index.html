@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex;">
+        <div style="display: flex; width: 300px; height: 100px; justify-content: space-between; flex-direction: column;">
+            <input id="login" placeholder="Login" onchange="preencherLogin(event)">
+            <input id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
+            <input id="api-key" placeholder="Api Key" onchange="preencherApi()">
+            <button id="login-button" disabled>Login</button>
+        </div>
+        <div id="search-container" style="margin-left: 20px">
+            <input id="search" placeholder="Escreva...">
+            <button id="search-button">Pesquisar Filme</button>
+        </div>
+        <div id="list-container" style="margin-left: 20px">
+            <input id="list" placeholder="Escreva...">
+            <input id="desc" placeholder="Escreva...">
+            <button id="create-list">Criar Lista</button>
+        </div>
+        <div id="film-container" style="margin-left: 20px">
+            <input id="film" placeholder="Escreva...">
+            <button id="add-film">Adicionar Filme</button>
+            <h1 id="campo-filme">OI</h1>
+        </div>
+      </div>
+
+
+    <script src="src/respostas/desafio4.ts" defer></script>
+</body>
+</html>
